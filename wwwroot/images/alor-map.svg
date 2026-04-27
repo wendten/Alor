@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2d44"/>
+      <stop offset="100%" stop-color="#101b2f"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6b7d56"/>
+      <stop offset="100%" stop-color="#3f4f34"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#sea)"/>
+  <path d="M120,220 C250,120 390,130 480,220 C620,360 760,260 880,340 L900,520 C760,680 650,760 480,840 C330,910 170,820 110,690 C70,610 50,500 80,390 C95,320 95,270 120,220 Z" fill="url(#land)" stroke="#bfc7a0" stroke-width="8"/>
+  <path d="M180,610 C250,590 360,640 430,700" fill="none" stroke="#88a4d1" stroke-width="10" opacity="0.7"/>
+  <path d="M320,250 C360,330 330,430 280,500" fill="none" stroke="#9aa68c" stroke-width="14" opacity="0.55"/>
+  <text x="510" y="110" text-anchor="middle" fill="#e8e3c8" font-size="48" font-family="serif">ALOR</text>
+</svg>

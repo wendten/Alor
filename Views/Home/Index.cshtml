@@ -1,0 +1,24 @@
+@model WorldMapViewModel
+@{
+    ViewData["Title"] = "World Map";
+}
+
+<section class="world-shell"
+         data-world-name="@Model.WorldName"
+         data-era="@Model.Era"
+         data-map-path="@Model.MapImagePath">
+    <aside class="map-sidebar">
+        <h2>@Model.WorldName</h2>
+        <p class="subtitle">Era: @Model.Era</p>
+        <p>Explore settlements, ruins, and mysteries by clicking markers on the map.</p>
+        <ul id="location-list" class="location-list"></ul>
+    </aside>
+
+    <section class="map-panel">
+        <div id="fantasy-map"></div>
+        <article id="location-detail" class="location-detail">
+            <h3>Select a location</h3>
+            <p>Marker details will appear here.</p>
+        </article>
+    </section>
+</section>
